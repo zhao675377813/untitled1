@@ -10,6 +10,8 @@ class Test_allure:
     def teardown(self):
         pass
 
+
+
     @pytest.mark.parametrize("a",[1,2,3])
     @pytest.allure.severity(pytest.allure.severity_level.CRITIVCAL)
     @allure.step('woshiceshibuzou001')
