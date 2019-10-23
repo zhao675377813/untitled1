@@ -2,6 +2,8 @@ import  os,sys,pytest
 import  allure
 sys.path.append(os.getcwd())
 
+
+
 class Test_allure:
     def setup(self):
         pass
